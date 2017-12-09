@@ -1,0 +1,51 @@
+*{
+	margin:0;
+	padding: 0;
+}
+body{
+	width: 650px;
+	height: 784px;
+	margin:0;
+	background-image: url(../img/mailing-16.png);
+	background-size: 650px;
+	background-repeat: no-repeat;
+}
+
+.container{
+}
+footer{
+	position: absolute;
+	bottom: -5.25rem;
+	left: 0;
+	text-align: center;
+	width: 650px;
+	background-color: black;
+	height: 36px;
+}
+div#logo-cliente{
+	width: 136px;
+	height: 136px;
+	border-radius: 50%;
+	margin-top: 2rem;
+	margin-left: 2rem;
+	background-color: white;
+	text-align: center;
+}
+img#logo_cliente{
+	margin-top: 2.5rem;
+}
+img#bDay{
+	margin-top: 2rem;
+	margin-left: 2rem;
+}
+p{
+	font-size: 1.2rem;
+}
+h1, p{
+	margin-top: 2rem;
+	margin-left: 2rem;
+}
+img#logo-recaudia{
+	height: 25px;
+	margin-top: 5px;
+}
