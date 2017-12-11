@@ -3,20 +3,17 @@
 	padding: 0;
 }
 body{
-	width: 650px;
-	height: 784px;
-	margin:0;
 	text-align: center;
 }
 .container{
 	max-width: 650px;
-	min-height: 784px;
+	max-height: 784px;
+	height: 785px;
+	text-align: center;
 }
 p{
 	font-size: 1.2rem;
 	margin-top: 1rem;
-	margin-left: 5%;
-	margin-right: 5%;
 	margin-bottom: 1rem;
 }
 p#nombre-cliente{
@@ -35,8 +32,6 @@ img#boxes{
 }
 img#bDay{
 	margin-top: 2rem;
-	margin-left: 5%;
-	margin-right: 5%;
 }
 hr{
 	width: 90%;
@@ -57,6 +52,6 @@ footer{
 	height: 36px;
 }
 img#logo-recaudia{
-	height: 25px;
+	height: 30px;
 	margin-top: 5px;
 }
