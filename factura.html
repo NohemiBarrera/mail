@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="assets/css/factura.css">
+</head>
+<body>
+	<div class="container">
+		<div class="logo">
+			<img src="assets/img/mailing-18.png" alt="Logo cliente" id="logo-cliente">
+		</div>
+		<div class="contenido">
+			<br>
+			<p id="numero">Número de pago: <strong><span>{{ num. }}</span></strong></p>
+			<p id="campaña">Campaña: <strong><span>{{ campaña }}</span></strong></p>
+			<br>
+			<br>
+			<h1>Hola <span>{{nombre}}</span>,</h1>
+			<br>
+			<hr>
+			<br>
+			<p>El motivo del presente es para informarte que se ha emitido una factura<br>electrónica por el monto <strong>$ <span>{{monto}}</span>.</strong></p>
+			<br>
+			<h2>Anexamos los archivos:PDF</h2>
+			<br>
+			<p>Si presentas algún inconveniente con tu factura te invitamos a que te<br>comuniques con nosotros al <strong><span>{{telefono}}</span></strong> o contáctanos<br>a la dirección de correo electrónico <strong><span>{{correo}}</span></strong></p>
+			<br>
+			<img src="assets/img/mailing-18.png" id="logo2-cliente">
+			<br>
+		</div>
+		<footer>
+			<img src="assets/img/mailing-15.png" alt="Code with love By Recaudia" id="logo-recaudia">
+		</footer>
+	</div>
+</body>
+</html>
