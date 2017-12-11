@@ -6,16 +6,36 @@ body{
 	width: 650px;
 	height: 784px;
 	margin:0;
+	
+	text-align: center;
+}
+.container{
+	max-width: 650px;
+	min-height: 784px;
 	background-image: url(../img/mailing-16.png);
 	background-size: 650px;
 	background-repeat: no-repeat;
+	background-size: cover;
 }
+img#logo_cliente{
+	max-width: 90%;
+	max-height: 50%;
 
-.container{
+}
+img#bDay{
+	margin-top: 2rem;
+	margin-left: 2rem;
+}
+p{
+	font-size: 1.2rem;
+}
+h1, p{
+	margin-top: 2rem;
+	margin-left: 2rem;
 }
 footer{
 	position: absolute;
-	bottom: -5.25rem;
+	bottom: -36px;
 	left: 0;
 	text-align: center;
 	width: 650px;
@@ -34,22 +54,6 @@ div#logo-cliente{
 	align-items: center;
 	justify-content: center;
 
-}
-img#logo_cliente{
-	max-width: 90%;
-	max-height: 50%;
-
-}
-img#bDay{
-	margin-top: 2rem;
-	margin-left: 2rem;
-}
-p{
-	font-size: 1.2rem;
-}
-h1, p{
-	margin-top: 2rem;
-	margin-left: 2rem;
 }
 img#logo-recaudia{
 	height: 25px;
