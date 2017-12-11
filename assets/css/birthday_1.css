@@ -6,14 +6,12 @@ body{
 	width: 650px;
 	height: 784px;
 	margin:0;
-	
 	text-align: center;
 }
 .container{
 	max-width: 650px;
 	min-height: 784px;
 	background-image: url(../img/mailing-16.png);
-	background-size: 650px;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -53,8 +51,8 @@ div#logo-cliente{
 	display: flex;
 	align-items: center;
 	justify-content: center;
-
 }
+
 img#logo-recaudia{
 	height: 25px;
 	margin-top: 5px;
