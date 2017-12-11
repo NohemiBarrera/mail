@@ -4,13 +4,13 @@
 }
 body{
 	text-align: center;
-	line-height: 25px;
+	line-height: 23.5px;
 }
 
 div.container{
 	max-height: 596px;
 	max-width: 650px;
-	height: 596px;
+	height: 650px;
 }
 div.logo{
 	background-image: url(../img/mailing-17.png);
@@ -29,7 +29,9 @@ p{
 	margin-left: 5%;
 	margin-right: 5%;
 }
-
+h1#nombre-cliente{
+	margin-top: 10px;
+}
 p#numero{
 	float: left;
 }
@@ -50,7 +52,7 @@ hr{
 }
 footer{
 	position: relative;
-	top: 2.8%;
+	top: 4.5%;
 	left: 0;
 	text-align: center;
 	background-color: black;
@@ -59,4 +61,7 @@ footer{
 img#logo-recaudia{
 	height: 30px;
 	margin-top: 5px;
+}
+h3{
+	margin-top: 15px;
 }

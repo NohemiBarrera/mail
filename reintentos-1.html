@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="assets/css/reintentos-1.css">
+</head>
+<body>
+	<div class="container">
+		<div class="logo">
+			<img src="assets/img/mailing-18.png" alt="Logo cliente" id="logo-cliente">
+		</div>
+		<div class="contenido">
+			<br>
+			<p id="numero">Número de pago: <strong><span>{{ num. }}</span></strong></p>
+			<p id="campaña">Campaña: <strong><span>{{ campaña }}</span></strong></p>
+			<br>
+			<h1 id="nombre-donador">Hola <span>{{ nombre }},</span></h1>
+			<br>
+			<hr>
+			<br>
+			<p>El motivo del presente es para informarte que por causas ajenas a nosotros, la<br>transacción por el monto <strong>$ <span>{{ monto }}</span></strong> no se pudo realizar.</p>
+			<br>
+			<p>De acuerdo a nuestras políticas, se realizarán un máximo de <strong><span>{{num.intentos}}</span></strong> cada<br>48 horas. Recuerda que de no ser aprobado dicho pago tu suscripción quedaría<br>en riesgo de ser cancelada.</p>
+			<br>
+			<p>Así mismo te pedimos de la manera más atenta que si presentas problemas con<br>tu tarjeta o algún cambio en tu método de pago, te comuniques con nosotros al<br><strong><span>{{tel contacto }}</span></strong> o contáctanos<br>a la diección de correo electrónico <strong><span>{{correo electrónico}}</span></strong></p>
+			<img src="assets/img/mailing-18.png" id="logo2-cliente" alt="Logo ONG">
+		</div>
+		<footer>
+			<img src="assets/img/mailing-15.png" alt="Code with love By Recaudia" id="logo-recaudia">
+		</footer>
+	</div>
+
+</body>
+</html>
